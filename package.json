@@ -1,6 +1,6 @@
 {
   "name": "sage-tools",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "tools",
   "main": "index.js",
   "types": "./types/index.d.ts",
@@ -21,7 +21,7 @@
   "keywords": [
     "tools"
   ],
-  "author": "Zegapaiz f1259@qq.com",
+  "author": "sage f1259@qq.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zegapaiz/zegapain/issues"
