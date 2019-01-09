@@ -1,10 +1,9 @@
 {
   "name": "sage-tools",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tools",
   "main": "index.js",
   "types": "./types/index.d.ts",
-  "bin": "./bin/zz.js",
   "scripts": {
     "test-ts": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register test/TSTest/*.test.ts",
     "test-js": "./node_modules/.bin/mocha -r ./node_modules/ts-node/register test/TSTest/*.test.ts",
@@ -16,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zegapaiz/zegapain.git"
+    "url": "git+https://github.com/sage-z/sage-tools.git"
   },
   "keywords": [
     "tools"
@@ -24,20 +23,15 @@
   "author": "sage f1259@qq.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Zegapaiz/zegapain/issues"
+    "url": "https://github.com/sage-z/sage-tools/issues"
   },
-  "homepage": "https://github.com/Zegapaiz/zegapain#readme",
+  "homepage": "https://github.com/sage-z/sage-tools#readme",
   "dependencies": {
-    "async": "^2.6.0",
-    "chalk": "^2.3.2",
-    "commander": "^2.15.1",
     "debug": "^3.1.0",
     "gulp-uglify": "^3.0.1",
     "is-buffer": "^2.0.2",
     "merge2": "^1.2.2",
-    "query-string": "^6.1.0",
-    "semver": "^5.5.0",
-    "v8-compile-cache": "^1.1.2"
+    "query-string": "^6.1.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
